@@ -6,7 +6,7 @@ require_once("functions/verificaSession.php");
 
 /*incluindo o arquivo com a função que verifica se existe uma sessão
  caso não exista uma sessão, ele manda o usuário para a tela de login.*/
-valida("function/verificaSession.php");
+valida("login.php");
 ?>
 
 <!DOCTYPE html>
