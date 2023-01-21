@@ -10,6 +10,9 @@
 body {
   background-image: url("../img/login.jpg");
   background-size: cover;
+  
+  
+
 }
 
 textarea:focus,
@@ -29,7 +32,7 @@ a:hover {
 /* container login*/
 
 #login-container {
-  background-color: #fff;
+  background-color: #ffffff90;
   width: 400px;
   margin-left: auto; /*assim fica fácio centralizar*/
   margin-right: auto; /*assim fica fácio centralizar*/
@@ -37,6 +40,7 @@ a:hover {
   margin-top: 10vh;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Formulário */

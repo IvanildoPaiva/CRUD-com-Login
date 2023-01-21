@@ -2,7 +2,11 @@
 session_start();
 include_once("../conexao/conexao.php");
 // recebe os dados do formulário para realizar as atualizações no banco
+require_once("../functions/verificaSession.php");
 
+/*incluindo o arquivo com a função que verifica se existe uma sessão
+ caso não exista uma sessão, ele manda o usuário para a tela de login.*/
+valida("../login.php");
 if (isset($_POST['update'])) {
   $user_id = $_POST['user_id'];
   $nome = ($_POST['nome']);

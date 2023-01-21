@@ -1,6 +1,11 @@
 <?php
 
 include_once("../conexao/conexao.php");
+require_once("../functions/verificaSession.php");
+
+/*incluindo o arquivo com a função que verifica se existe uma sessão
+ caso não exista uma sessão, ele manda o usuário para a tela de login.*/
+valida("../login.php");
 ?>
 
 <!DOCTYPE html>

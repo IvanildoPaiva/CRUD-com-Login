@@ -1,10 +1,10 @@
 <?php
 
-function valida()
+function valida($path)
 
 {
   if (!$_SESSION) {
-    header("Location:login.php");
+    header("Location:" . $path);
     exit();
   }
 }
